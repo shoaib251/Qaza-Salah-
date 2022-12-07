@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculate</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="form-box">
+            <h1>Total Amount</h1>
+            <input type="number" id="totalAmount" >
+            <br>
+            <h2>Calculate</h2>
+            <button onclick="
+            let amount = document.getElementById('totalAmount').value;
+            let zakatAmount = amount /40;
+                document.getElementById('heading').innerText = zakatAmount;">
+                Click Here</button>
+            <h3>Your Zakat is</h3>
+            <h4 id="heading">0</h4>
+
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
